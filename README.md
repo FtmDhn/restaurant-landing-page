@@ -29,7 +29,12 @@ It includes essential restaurant sections such as menu highlights, customer revi
 - Tailwind CSS – utility-first styling  
 - CSS Animations – interactive visual effects
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) [TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white
+<div>
+<img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML" />
+<img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS"/>
+<img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png" alt="Tailwind CSS" title="Tailwind CSS"/>
+</div>
+
 
 <br>
 
@@ -64,7 +69,7 @@ It includes essential restaurant sections such as menu highlights, customer revi
 <br>
 
 
-## 🧑‍💻 Author
+## 🧑‍💻 Developer
 
 **Fatemeh Dehghani**   
   
