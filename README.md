@@ -29,6 +29,8 @@ It includes essential restaurant sections such as menu highlights, customer revi
 - Tailwind CSS – utility-first styling  
 - CSS Animations – interactive visual effects
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) [TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white
+
 <br>
 
 
@@ -60,18 +62,6 @@ It includes essential restaurant sections such as menu highlights, customer revi
 👉 [Click here to view the project online](https://ftmdhn.github.io/restaurant-landing-page/)
 
 <br>
-
-### 📂 File Structure
-project-folder/  
-│── src/  
-│   ├── css  
-│   ├── img  
-│   ├── font  
-│   ├── index.html  
-│   └── readme  
-
-<br>
-
 
 
 ## 🧑‍💻 Author
