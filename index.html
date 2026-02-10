@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link href='https://cdn.boxicons.com/3.0.5/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main class="relative w-full flex flex-wrap justify-center">
+        <!-- xl:bg-transparent  -->
+        <header class="absolute top-0 left-0 z-20 w-full h-[110px] bg-black xl:bg-transparent  xl:container xl:left-1/2 xl:translate-x-[calc(-50%)]">
+            <div class="w-full h-full flex items-center flex-wrap ">
+                <figure class="w-2/3 h-full xl:w-1/3 flex  items-center md:justify-normal ">
+                    <img class="w-10/12 md:w-6/12 lg:w-4/12 xl:w-7/12 mx-6 md:mx-20 2xl:mx-2" src="img/logo-svg.svg" alt="">
+                </figure>
+                <div class="w-1/3 h-full xl:hidden flex justify-end items-center">
+                    <i class="restaurant-menu text-3xl text-white px-6"></i>
+                </div>
+                <nav class="hidden h-[50px] xl:flex xl:w-2/3">
+                    <ul class="w-full h-full flex *:h-full *:mr-6">
+                        <li class="group relative flex items-center "><a class="flex uppercase text-white font-workSans text-[15px]" href="">home
+                             <span class=" flex items-center p-1"><i class='bxr  bx-chevron-down'></i> </span>
+                        </a>
+                        <ul class="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 absolute top-12 left-0 w-[190px]  bg-bg-submenu rounded-md">
+                            <li class="w-full flex h-full"><a class="flex py-3 rounded-t-md w-full h-full justify-center text-sm font-workSans text-white hover:bg-bg-submenu-hover transition duration-500" href="">Alternate Homepage 1</a></li>
+                            <li class="w-full flex h-full"><a class="flex py-3 rounded-b-md w-full h-full justify-center text-sm font-workSans text-white hover:bg-bg-submenu-hover transition duration-500" href="">Alternate Homepage 2</a></li>
+                        </ul>
+                    </li>
+                        <li class="group relative flex items-center"><a class="group-hover:text-white transition duration-700 flex uppercase text-gray-txt font-workSans text-[15px]" href="">history
+                            <span class=" flex items-center p-1"><i class='bxr  bx-chevron-down'></i> </span>
+                        </a>
+                        <ul class="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 absolute top-12 left-0 w-[150px] bg-bg-submenu rounded-md">
+                            <li class="w-full flex h-full"><a class="flex py-3 rounded-md w-full h-full justify-center text-sm font-workSans text-white hover:bg-bg-submenu-hover transition duration-500" href="">Reception & Bar</a></li>
+                        </ul>
+                    </li>
+                        <li class=" flex items-center"><a class="hover:text-white transition duration-700  uppercase text-gray-txt font-workSans text-[15px]" href="">team</a></li>
+                    <!-- menu  -->
+                        <li class="group flex items-center"><a class="group-hover:text-white transition duration-700 flex uppercase text-gray-txt font-workSans text-[15px]" href="">menu
+                            <span class=" flex items-center p-1"><i class='bxr  bx-chevron-down'></i> </span>
+                        </a>
+                        <!-- menu submenu  -->
+                        <ul class="flex opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-500 absolute top-20 left-1/2 translate-x-[calc(-50%)] w-[97%] h-100">
+                            <li class="relative grow overflow-hidden">
+                                <div class="w-full h-full absolute top-0 left-0">
+                                    <img class="object-cover w-full h-full" src="img/1.jpg" alt="">
+                                </div>
+                                <a class="relative flex w-full h-full bg-linear-to-b from-black from-15% to-[#0000007b] " href="">
+                                    <div class="hover:scale-105 transition duration-300 w-full h-full absolute top-0 flex flex-wrap content-center *:flex *:justify-center *:w-full *:h-fit ">
+                                        <h3 class="text-3xl font-bebasNeue text-white">Hors D’oeuvres</h3>
+                                        <i class="restaurant-sushi-1 text-[80px] py-6 text-white"></i>
+                                        <p class="font-loralRegular px-14 text-center capitalize text-gray-txt2 "> Cras ultricies ligula sed magna dictum porta.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="relative grow overflow-hidden">
+                                <div class="w-full h-full absolute top-0 left-0">
+                                    <img class="object-cover w-full h-full scale-200" src="img/menu272x.jpg" alt="">
+                                </div>
+                                <a class="relative flex w-full h-full bg-linear-to-b from-black from-15% to-[#0000007b] " href="">
+                                    <div class="hover:scale-105 transition duration-300 w-full h-full absolute top-0 flex flex-wrap content-center *:flex *:justify-center *:w-full *:h-fit ">
+                                        <h3 class="text-3xl font-bebasNeue text-white">Main Course</h3>
+                                        <i class="restaurant-sushi-5 text-[80px] py-6 text-white"></i>
+                                        <p class="font-loralRegular px-14 text-center capitalize text-gray-txt2"> Curabitur aliquet quam id dui posuere blandit.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="relative grow overflow-hidden">
+                                <div class="w-full h-full absolute top-0 left-0">
+                                    <img class="object-cover w-full h-full" src="img/menu392x.jpg" alt="">
+                                </div>
+                                <a class="relative flex w-full h-full bg-linear-to-b from-black from-15% to-[#0000007b] " href="">
+                                    <div class="hover:scale-105 transition duration-300 w-full h-full absolute top-0 flex flex-wrap content-center *:flex *:justify-center *:w-full *:h-fit ">
+                                        <h3 class="text-3xl font-bebasNeue text-white">Dessert &amp; Coffee</h3>
+                                        <i class="restaurant-cake text-[75px] py-6 text-white"></i>
+                                        <p class="font-loralRegular px-14 text-center capitalize text-gray-txt2"> Pellentesque in ipsum id orci porta dapibus.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="relative grow overflow-hidden">
+                                <div class="w-full h-full absolute top-0 left-0">
+                                    <img class="object-cover w-full h-full scale-200" src="img/menu272x.jpg" alt="">
+                                </div>
+                                <a class="relative flex w-full h-full bg-linear-to-b from-black from-15% to-[#0000007b] " href="">
+                                    <div class=" hover:scale-105 transition duration-300 w-full h-full absolute top-0 flex flex-wrap content-center *:flex *:justify-center *:w-full *:h-fit ">
+                                        <h3 class="text-3xl font-bebasNeue text-white">Drinks &amp; Cocktails</h3>
+                                        <i class="restaurant-cocktail text-[80px] py-6 text-white"></i>
+                                        <p class="font-loralRegular px-14 text-center capitalize text-gray-txt2"> Vivamus suscipit tortor felis porttitor volutpat.</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end menu submenu  -->
+                    </li>
+                        <li class="group relative flex items-center"><a class="group-hover:text-white transition duration-700 flex uppercase text-gray-txt font-workSans text-[15px]" href="">takeout
+                            <span class=" flex items-center p-1">
+                                <span class="border flex px-1 border-gray-txt uppercase text-[10px] text-white">new</span>
+                                <i class='bxr  bx-chevron-down'></i> </span>
+                        </a>
+                        <ul class="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 absolute top-12 left-0 w-[150px]  bg-bg-submenu rounded-md">
+                            <li class="w-full flex h-full"><a class="flex py-3 rounded-t-md w-full h-full justify-center text-sm font-workSans text-white hover:bg-bg-submenu-hover transition duration-500" href="">Simple Product</a></li>
+                            <li class="w-full flex h-full"><a class="flex py-3 rounded-b-md w-full h-full justify-center text-sm font-workSans text-white hover:bg-bg-submenu-hover transition duration-500" href="">Variable Product</a></li>
+                        </ul>
+                    </li>
+                        <li class=" flex items-center"><a class="hover:text-white transition duration-700  uppercase text-gray-txt font-workSans text-[15px]" href="">bulletin</a></li>
+                        <li class=" flex items-center"><a class="hover:text-white transition duration-700  uppercase text-gray-txt font-workSans text-[15px]" href="">reservation</a></li>
+                        <li class=" flex items-center"><a class=" uppercase text-white font-workSans text-[15px]" href="">
+                            <i class="restaurant-shopping-basket"></i>
+                        </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- end header  -->
+
+        <!-- section 1  -->
+        <section class="w-full flex flex-wrap xl:justify-center  ">
+            <div class="w-full flex flex-wrap 2xl:container">
+                <div class="w-full xl:w-1/2  relative after:content-[''] after:absolute after:top-0 after:w-full after:h-full after:flex after:bg-[#00000071]">
+                <img class="w-full h-full object-cover " src="img/slider52x.jpg" alt="">
+            </div>
+
+            <div class="w-full xl:w-1/2 flex flex-wrap justify-center py-20 xl:py-60 px-10 sm:px-20 xl:-order-1 bg-black">
+                <div class="opacity-0 flex flex-wrap w-full -translate-x-4 animate-[op2_.5s_linear_forwards_.2s]">
+                    <div class="w-full xl:w-1/12 xl:h-full xl:pt-2.5">
+                    <span class="flex w-16 xl:w-full mb-4 xl:mb-0 border-t border-white-txt"></span>
+                </div>
+
+                <div class="w-full xl:w-11/12 xl:pl-10 *:w-full">
+                <div>
+                    <h3 class="w-full font-workSans text-white-txt">THE BEST TABLE IN TOWN</h3>
+                </div>
+                <div>
+                    <h1 class="w-full text-7xl lg:text-8xl font-bebasNeue mt-8 text-white"> FINE DINING</h1>
+                    <h1 class="w-full text-7xl flex lg:text-8xl font-bebasNeue mb-8 text-white ">
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_1s]">E</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_1.2s]">X</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_1.4s]">P</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_1.6s]">E</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_1.8s]">R</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_2s]">I</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_2.2s]">E</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_2.4s]">N</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_2.6s]">C</span>
+                         <span class="opacity-0 animate-[op_1s_linear_forwards_2.8s]">E</span>
+                        </h1>
+                </div>
+                <div>
+                     <p class="w-full font-loralRegular text-lg mt-4 mb-10 sm:pe-30 xl:leading-6 text-white-txt">Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+                </div>
+                <div>
+                    <a class="flex w-50 h-10 justify-center items-center font-workSans uppercase text-sm border border-white text-white hover:bg-white hover:text-black transition duration-300" href="">buy avada today</a>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- end section 1  -->
+
+        <!-- section 2 -->
+        <section class="w-full flex xl:justify-center flex-wrap   ">
+            <div class="w-full flex flex-wrap xl:mt-24 xl:w-11/12 2xl:container">
+                <div class="w-full xl:w-1/2 flex flex-wrap ">
+                    <div class="w-full flex justify-center mt-11 xl:mt-16 ">
+                        <h3 class="font-loralRegular text-lg w-5/6 sm:pr-30"><b> HAC TELLUS, FELIS RISUS AT</b> mattis mattis. Eget euismod semper eget tortor, donec amet, blandit. Tristique facilisi faucibus elementum feugiat in nam in feugiat. Ipsum odio etiam duis facilisis amet vulputate.</h3>
+                    </div>
+                    <div class="w-full flex justify-center my-11 xl:my-10 ">
+                        <h2 class="text-6xl uppercase font-bebasNeue w-5/6 leading-16 sm:pr-30 xl:pr-20 2xl:pr-30 ">food is our common ground, a universal experience.</h2>
+                    </div>
+                    <div class="w-full flex justify-center ">
+                        <p class="text-lg font-loralRegular w-5/6 sm:pr-30">Tristique tempus condimentum diam donec. Condimentum ullamcorper sit elementum hendrerit mi nulla in consequat, ut. Metus, nullam scelerisque netus viverra dui.</p>
+                    </div>
+                    <div class="w-full flex justify-center my-8">
+                        <div class="w-5/6 h-40">
+                            <span class="flex w-full h-full  bg-[url('../img/signature.jpg')] bg-contain bg-no-repeat"></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="group w-full sm:h-[700px] md:h-[800px] lg:h-[900px] xl:h-full flex justify-center relative  xl:w-1/2 ">
+                    <div class="flex w-10/12 h-full  group-hover:scale-103 transition duration-500">
+                        <img class="w-full h-full  object-cover xl:h-5/6 " src="img/info22x.jpg" alt="">
+                    </div>
+                    <a style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 86%, rgba(0, 0, 0, 0.8) 100%);" class="w-10/12 h-full xl:h-5/6 absolute top-0 left-1/2 translate-x-[calc(-50%)] flex items-end justify-center  group-hover:scale-103 group-hover:shadow-[0_3px_15px_#00000066] transition duration-500" href="">
+                        <h6 class="text-white font-workSans mb-8">CALIFORNIA ROLLS – $22</h6>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!-- end section 2 -->
+        
+        <!-- section 3 -->
+        <section class="w-full flex justify-center">
+            <div class="w-full xl:w-5/6 flex flex-wrap xl:container xl:justify-center ">
+                <!-- div 1 -->
+                <div class="w-full xl:w-1/3 flex flex-wrap *:w-full ">
+                    <div class="flex justify-center mt-11 sm:mt-16">
+                        <i class="restaurant-sushi-10 text-[90px] text-i-Color"></i>
+                    </div>
+                    <div class="flex justify-center my-5 sm:my-10 xl:my-3">
+                        <h2 class="font-bebasNeue uppercase text-3xl">The best table in town</h2>
+                    </div>
+                    <div class="flex justify-center">
+                        <span class="flex w-[65px] border border-b-i-Color"></span>
+                    </div>
+                    <div class="flex justify-center my-5 sm:my-10 xl:my-3">
+                        <p class="font-loralRegular text-[17px] xl:text-[15px] text-center leading-7 px-10 sm:px-30 md:px-40 xl:px-10 ">Sed aenean egestas ut aliquam turpis mauris, molestie. Vitae tellus tempor sem id tempus neque, tellus turpis turpis. Morbi tortor id gravida aliquet.</p>
+                    </div>
+                    <div class="flex justify-center mt-3 mb-5 sm:mb-10 xl:mb-5 xl:mt-0">
+                        <a class="flex justify-center items-center font-workSans w-[225px] h-10 border border-i-Color hover:border-black transition duration-200" href="">EXPLORE THE MENU</a>
+                    </div>
+                </div>
+                <!-- div 2 -->
+                <div class="w-full xl:w-1/3 flex flex-wrap *:w-full ">
+                    <div class="flex justify-center mt-11 sm:mt-16">
+                        <i class="restaurant-sushi-7 text-[90px] text-i-Color"></i>
+                    </div>
+                    <div class="flex justify-center my-5 sm:my-10 xl:my-3">
+                        <h2 class="font-bebasNeue uppercase text-3xl">Perfect For Groups</h2>
+                    </div>
+                    <div class="flex justify-center">
+                        <span class="flex w-[65px] border border-b-i-Color"></span>
+                    </div>
+                    <div class="flex justify-center my-5 sm:my-10 xl:my-3">
+                        <p class="font-loralRegular text-[17px] xl:text-[15px] text-center leading-7 px-10 sm:px-30 md:px-40 xl:px-6 ">Quam eu proin sit massa condimentum. Volutpat non pulvinar aliquet nunc. Orci elementum in aliquet a gravida vivamus aliquam turpis vitae.</p>
+                    </div>
+                    <div class="flex justify-center mt-3 mb-5 sm:mb-10 xl:mb-5 xl:mt-0">
+                        <a class="flex justify-center items-center font-workSans w-[225px] h-10 border border-i-Color uppercase hover:border-black transition duration-200" href="">Buy Avada today</a>
+                    </div>
+                </div>
+                <!-- div 3 -->
+                <div class="w-full xl:w-1/3 flex flex-wrap *:w-full ">
+                    <div class="flex justify-center mt-11 sm:mt-16">
+                        <i class="restaurant-sushi-1 text-[90px] text-i-Color"></i>
+                    </div>
+                    <div class="flex justify-center my-5 sm:my-10 xl:my-3">
+                        <h2 class="font-bebasNeue uppercase text-3xl">Fresh produce everyday</h2>
+                    </div>
+                    <div class="flex justify-center">
+                        <span class="flex w-[65px] border border-b-i-Color"></span>
+                    </div>
+                    <div class="flex justify-center my-5 sm:my-10 xl:my-3">
+                        <p class="font-loralRegular text-[17px] xl:text-[15px] text-center leading-7 px-10 sm:px-30 md:px-40 xl:px-5 ">Hendrerit amet, volutpat leo non, commodo maecenas scelerisque tincidunt. Morbi vulputate morbi purus quisque sit sagittis orci elementum gravida.</p>
+                    </div>
+                    <div class="flex justify-center mt-3 mb-5 sm:mb-10 xl:mb-5 xl:mt-0">
+                        <a class="flex justify-center items-center font-workSans w-[225px] h-10 border border-i-Color hover:border-black transition duration-200" href="">LEARN MORE ABOUT US</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- end section 3 -->
+
+        <!-- section 4 -->
+        <section class="w-full flex justify-center mt-16">
+            <div class="w-full flex flex-wrap justify-center 2xl:container bg-black">
+
+                <div class=" flex h-44 sm:h-110 md:h-140 xl:w-7/12 xl:h-full w-full">
+                    <a class="flex w-full h-full bg-[url('../img/menu252x-1200x1375.jpg')] bg-cover" href=""></a>
+                </div>
+
+                <div class="flex w-9/12 py-14 xl:w-5/12 xl:px-18 xl:mt-24  xl:container">
+                    <div class="w-full flex flex-wrap ">
+
+                        <div class="w-full xl:w-2/12 xl:h-full mt-6">
+                            <span class="flex w-14 xl:w-10/12 mb-4 xl:mb-0 border-t border-white-txt"></span>
+                         </div>
+
+                    <div class="w-full xl:w-10/12 *:border-white ">
+                        <div class="w-full sm:my-6 xl:my-3">
+                            <h6 class="font-workSans text-white-txt">FINE DINING EXPERIENCE</h6>
+                        </div>
+                        <div class="w-full">
+                            <h2 class="font-bebasNeue text-white text-6xl  leading-18 py-5 xl:py-2 xl:leading-20 xl:pe-10">THE BEST TABLE IN TOWN</h2>
+                        </div>
+                        <div class="w-full sm:my-6 xl:my-5">
+                            <p class="font-loralRegular text-white-txt text-lg  pe-5 sm:pe-20">Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla.</p>
+                        </div>
+                        <div class="w-full">
+                            <a class="flex justify-center items-center w-[220px] py-2 font-workSans uppercase border border-white text-white mt-10 xl:mt-6 hover:bg-white hover:text-black transition duration-200" href="">Explore the menu</a>
+                        </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section 4 -->
+
+        <!-- section 5 -->
+        <section class="w-full flex justify-center mt-16">
+            <div class="w-full flex flex-wrap justify-center xl:container ">
+                <div class="w-5/6 flex flex-wrap">
+                    <!-- div 1 -->
+                <div class="w-full">
+                    <h2 class="font-loralItalic text-center text-[40px] leading-12">What critics are saying about us</h2>
+                </div>
+                <!-- div 2 -->
+                <div class="w-full flex justify-center my-7">
+                    <span class="flex w-14 border-t border-white-txt"></span>
+                </div>
+                <!-- div 3 -->
+                <div class="w-full flex flex-wrap *:w-full bg-black">
+                    
+                    <figure class=" w-full xl:w-1/2">
+                        <img class="hidden xl:flex xl:w-full xl:h-full xl:object-cover" src="img/blog72x.jpg" alt="">
+                        <img class="h-full w-full object-cover xl:hidden" src="img/blog73x.jpg" alt="">
+                    </figure>
+
+                    <div class="w-full xl:w-1/2 flex justify-center flex-wrap hover:scale-103 hover:shadow-[0_3px_15px_#00000066] transition duration-500 *:w-8/12 bg-black">
+                        <div class="w-full my-15 sm:my-24">
+                            <div class="pt-2">
+                            <h6 class="font-workSans text-white-txt text-[16px]">MEGGY STEWART</h6>
+                        </div>
+                        <div class="py-6">
+                            <h3 class="text-5xl font-bebasNeue text-white leading-18">NEW YORK TIMES</h3>
+                        </div>
+                        <div class="*:me-2 *:text-white text-[16px]">
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                        </div>
+                        <div class="w-full py-5">
+                            <span class="flex w-16 border-t border-white-txt"></span>
+                        </div>
+                        <div>
+                            <p class="font-loralRegular text-white text-lg leading-8">Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed at.</p>
+                        </div>
+                        <div>
+                            <p class="font-loralRegular text-white text-lg leading-8 py-6">Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.</p>
+                        </div>
+                        <div>
+                            <a class="flex justify-center text-center items-center w-5/6 sm:w-[220px] py-2 font-workSans uppercase border border-white text-white" href="">READ FULL ARTICLE</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section 5 -->
+
+        <!-- section 6 -->
+        <section class="w-full flex justify-center  mt-16">
+            <div class="w-full flex flex-wrap justify-center xl:container">
+                <div class="w-full xl:w-5/6 flex flex-wrap justify-center">
+                    <!-- div 1 -->
+                    <div class="w-full xl:w-1/2 flex flex-wrap justify-center ">
+                        <div style="background-image: linear-gradient(180deg, #000000 17%, hsla(0, 0%,
+ calc(0% + 1%), calc(100% - 80%)) 100%) , url('img/info52x.jpg');" class="w-5/6 xl:w-full xl:mr-5 bg-cover bg-center">
+                        <div class="w-full flex justify-center flex-wrap *:w-8/12 ">
+                        <div class="w-full my-15 sm:my-24 ">
+                            <div class="pt-2">
+                            <h6 class="font-workSans text-white-txt text-[16px]">MARY MAXEY</h6>
+                        </div>
+                        <div class="py-6">
+                            <h3 class="text-5xl font-bebasNeue text-white leading-18">THE GUARDIAN</h3>
+                        </div>
+                        <div class="*:me-2 *:text-white  text-[16px]">
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                        </div>
+                        <div class="w-full py-5">
+                            <span class="flex w-16 border-t border-white-txt"></span>
+                        </div>
+                        <div>
+                            <p class="font-loralRegular text-white text-lg pb-6 leading-8">Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed.</p>
+                        </div>
+
+                        <div>
+                            <a class="flex justify-center text-center items-center w-5/6 sm:w-[220px] py-2 font-workSans uppercase border border-white text-white hover:bg-black transition duration-300" href="">READ FULL ARTICLE</a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- div 2 -->
+                    <div class="w-full xl:w-1/2 flex flex-wrap justify-center  ">
+                        <div style="background-image: linear-gradient(180deg, #000000 17%, hsla(0, 0%,
+ calc(0% + 1%), calc(100% - 80%)) 100%) , url('img/info12x.jpg');" class="w-5/6 xl:w-full xl:ml-5 bg-cover bg-center mt-6 sm:mt-14 xl:mt-0">
+                        <div class="w-full flex justify-center flex-wrap *:w-8/12 ">
+                        <div class="w-full my-15 sm:my-24 ">
+                            <div class="pt-2">
+                            <h6 class="font-workSans text-white-txt text-[16px]">PATRICK MONROE</h6>
+                        </div>
+                        <div class="py-6">
+                            <h3 class="text-5xl font-bebasNeue text-white leading-18">GLOBE AND MAIL</h3>
+                        </div>
+                        <div class="*:me-2 *:text-white  text-[16px]">
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                            <i class="restaurant-star"></i>
+                        </div>
+                        <div class="w-full py-5">
+                            <span class="flex w-16 border-t border-white-txt"></span>
+                        </div>
+                        <div>
+                            <p class="font-loralRegular text-white text-lg pb-6 leading-8">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt.</p>
+                        </div>
+
+                        <div>
+                            <a class="flex justify-center text-center items-center w-5/6 sm:w-[220px] py-2 font-workSans uppercase border border-white text-white hover:bg-black transition duration-300" href="">READ FULL ARTICLE</a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section 6 -->
+
+        <!-- section 7 -->
+        <section class="w-full h-30 overflow-hidden mt-16 sm:h-68 md:mt-24 md:h-78 lg:h-82 xl:h-[80vh] relative">
+            <div class="w-full h-full bg-[url('../img/page52x.jpg')] bg-cover bg-center bg-no-repeat transform scale-150">
+                <div style="background: linear-gradient(180deg, rgba(3, 3, 3, 0) 68%, hsla(0, 0%, calc(0% + 1%), calc(100% - 10%)) 100%);" class="w-full h-full flex items-end">
+                </div>
+            </div>
+            <div class="w-full h-1/6 flex justify-center items-center absolute left-0 bottom-4 sm:bottom-0 ">
+                <a class="font-workSans text-white text-[15px]" href="">
+                   KUNG PAO CHICKEN – $32
+                </a>
+            </div>
+        </section>
+        <!-- end section 7 -->
+
+        <!-- section 8 -->
+        <section class="w-full flex justify-center mt-16">
+            <div class="w-full flex flex-wrap justify-center xl:container ">
+                <div class="w-5/6 flex flex-wrap justify-center ">
+                    <div class="w-5/6 sm:w-full  flex flex-wrap ">
+                        <!-- div 1 -->
+                        <div class="w-full ">
+                            <h2 class="font-loralItalic text-center text-[40px] leading-12 ">Latest news & promotions</h2>
+                        </div>
+                        <!-- div 2 -->
+                        <div class="w-full flex justify-center my-7">
+                            <span class="flex w-14 border-t border-white-txt"></span>
+                        </div>
+                        
+                        <!-- sec 3 -->
+                         <section class="w-full flex flex-wrap">
+                             <!-- div 1 -->
+                             <div class="w-full sm:w-1/2 sm:pe-5 xl:w-1/3 flex flex-wrap *:w-full">
+                                <figure class="sm:h-[400px] xl:h-[350px]">
+                                    <img class="w-full h-full object-cover" src="img/menu362x.jpg" alt="">
+                                </figure>
+                                <div class=" flex flex-wrap *:w-full">
+                                    <div class="text-center  my-7 ">
+                                        <a class="font-bebasNeue uppercase text-3xl" href="">The best coffee in town</a>
+                                    </div>
+                                    <div class=" flex flex-wrap justify-center *:font-loralRegular *:text-[12px] text-center">
+                                        <span>By admin</span>
+                                        <span class="px-2">Published On: January 7th, 2020</span>
+                                        <span>Categories: News</span>
+                                    </div>
+                                </div>
+                             </div>
+                             <!-- div 2 -->
+                             <div class="w-full sm:w-1/2 sm:ps-5 xl:px-5 xl:w-1/3 sm:mt-0 flex flex-wrap mt-16 *:w-full ">
+                                <figure class="sm:h-[400px] xl:h-[350px]">
+                                    <img class="w-full h-full object-cover" src="img/info32x.jpg" alt="">
+                                </figure>
+                                <div class=" flex flex-wrap *:w-full">
+                                    <div class="text-center  my-7 ">
+                                        <a class="font-bebasNeue uppercase text-3xl" href="">Discover our new menu</a>
+                                    </div>
+                                    <div class=" flex flex-wrap justify-center *:font-loralRegular *:text-[12px] text-center">
+                                        <span>By admin</span>
+                                        <span class="px-2">Published On: January 7th, 2020</span>
+                                        <span>Categories: News</span>
+                                    </div>
+                                </div>
+                             </div>
+                             <!-- div 3 -->
+                             <div class="w-full sm:w-1/2 sm:pe-5 xl:w-1/3 xl:mt-0 xl:pe-0 xl:ps-5 flex flex-wrap mt-16 *:w-full ">
+                                <figure class="sm:h-[400px] xl:h-[350px]">
+                                    <img class="w-full h-full object-cover" src="img/blog82x.jpg" alt="">
+                                </figure>
+                                <div class=" flex flex-wrap *:w-full ">
+                                    <div class="text-center  my-7 ">
+                                        <a class="font-bebasNeue uppercase text-3xl " href="">We now accept Square!</a>
+                                    </div>
+                                    <div class=" flex flex-wrap justify-center *:font-loralRegular *:text-[12px] text-center">
+                                        <span>By admin</span>
+                                        <span class="px-2">Published On: January 7th, 2020</span>
+                                        <span>Categories: News</span>
+                                    </div>
+                                </div>
+                             </div>
+
+                         </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section 8 -->
+
+        <!-- section 9 -->
+         <section class="w-full flex justify-center mt-16">
+            <div class="w-full flex flex-wrap justify-center 2xl:container bg-black">
+
+                <div class=" flex h-44 sm:h-110 md:h-140 xl:w-7/12 xl:h-full w-full">
+                    <a class="flex w-full h-full bg-[url('../img/slider72x-scaled.jpg')] bg-cover bg-center" href=""></a>
+                </div>
+
+                <div class="flex w-9/12 py-14 xl:w-5/12 xl:px-18 xl:mt-24  xl:container">
+                    <div class="w-full flex flex-wrap">
+
+                        <div class="w-full xl:w-2/12 xl:h-full mt-6">
+                            <span class="flex w-14 xl:w-10/12 mb-4 xl:mb-0 border-t border-white-txt"></span>
+                         </div>
+
+                    <div class="w-full xl:w-10/12 *:border-white ">
+                        <div class="w-full sm:my-6 xl:my-3">
+                            <h6 class="font-workSans text-white-txt">ENJOY YOUR MEAL AT HOME</h6>
+                        </div>
+                        <div class="w-full">
+                            <h2 class="font-bebasNeue text-white text-6xl  leading-18 py-5 xl:py-2 xl:leading-20 xl:pe-10">TAKEOUT NOW AVAILABLE</h2>
+                        </div>
+                        <div class="w-full sm:my-6 xl:my-5">
+                            <p class="font-loralRegular text-white-txt text-lg pe-5 sm:pe-20">Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla non arcu moris tortor.</p>
+                        </div>
+                        <div class="w-full">
+                            <a class="flex justify-center items-center w-[230px] py-2 font-workSans uppercase border border-white text-white mt-10 xl:mt-6 hover:bg-white hover:text-black transition duration-200" href="">
+                                <i class="restaurant-directions_car pe-2"></i>
+                                View takeout menu</a>
+                        </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section 9 -->
+
+        <!-- section 10  -->
+        <section class="w-full flex flex-wrap justify-center mt-16">
+            <div class=" flex flex-wrap justify-center w-11/12">
+                <div class="w-full xl:pb-16 xl:container flex flex-wrap justify-center">
+                    <!-- sec 1 -->
+                     <section class="w-full xl:w-1/3 flex justify-center bg-gray-bg xl:translate-y-16">
+                        <div class="w-9/12 my-10 sm:my-15 lg:my-20">
+                            <div class="w-full  ">
+                                <h3 class="font-bebasNeue text-[38px] xl:text-[45px]">HORS D’OEUVRES</h3>
+                            </div>
+                        <!-- div 1 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">AHI SALMON NIGIRI</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$48</span>
+                            </div>
+                            <div class="w-full">
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15">Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacinia.</p>
+                            </div>
+                        </div>
+                        <!-- div 2 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">UMI MASU SALAD</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$21</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15">Mollis ornare sit sapien, sodales. Cursus duis proin semper quisque.</p>
+                            </div>
+                        </div>
+                        <!-- div 3 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">TEMAKI WITH CRAB</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$32</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15">Ac vel, risus ornare senectus placerat duis amet dictumst tellus.</p>
+                            </div>
+                        </div>
+                        <!-- div 4 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">California Rolls</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$22</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 pb-3 sm:pe-15">Ac vel, risus ornare senectus placerat duis amet dictumst tellus.</p>
+                            </div>
+                        </div>
+                        </div>
+                     </section>
+
+                    <!-- sec 2 -->
+                     <section class="w-full xl:w-1/3 flex justify-center bg-[url('../img/misc22x.jpg')] bg-cover bg-center">
+                        <div style="background-image: linear-gradient(180deg, #000000 27%, hsla(0, 0%,
+ calc(0% + 1%), calc(100% - 80%)) 100%);;" class="w-full flex flex-wrap justify-center">
+                            <div class="w-9/12 my-10 sm:my-15 lg:my-20">
+                            <div class="w-full ">
+                                <h3 class="font-bebasNeue text-[38px] xl:text-[45px] text-white">Main Course</h3>
+                            </div>
+                        <!-- div 1 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit text-white" href="">Braised Abalone</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit text-white-txt">$52</span>
+                            </div>
+                            <div class="w-full">
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15 text-white-txt">Mollis ornare sit sapien, sodales. Cursus duis proin semper quisque.</p>
+                            </div>
+                        </div>
+                        <!-- div 2 -->
+                        <div class="w-full mt-10 ">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit text-white" href="">Twice Cooked Pork</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit text-white-txt">$21</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15 text-white-txt">Ac vel, risus ornare senectus placerat duis amet dictumst tellus.</p>
+                            </div>
+                        </div>
+                        <!-- div 3 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit text-white" href="">Kung Pao Chicken</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit text-white-txt">$32</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15 text-white-txt">Quis duis sit dictum aliquam a velit enim. Tellus in sit augue aliquam.</p>
+                            </div>
+                        </div>
+                        <!-- div 4 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit text-white" href="">CHAR SIU & SUSHIS</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit text-white-txt">$48</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 pb-3 sm:pe-15 text-white-txt">Feugiat rhoncus ipsum tristique purus diam, et dolor molestie.</p>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                     </section>
+
+                    <!-- sec 3 -->
+                     <section class="w-full xl:w-1/3 flex justify-center bg-gray-bg xl:translate-y-16">
+                        <div class="w-9/12 my-10 sm:my-15 lg:my-20">
+                            <div class="w-full ">
+                                <h3 class="font-bebasNeue text-[38px] xl:text-[45px]">DESSERTS</h3>
+                            </div>
+                        <!-- div 1 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">Chocolate ball cake</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$13</span>
+                            </div>
+                            <div class="w-full">
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15">In pellentesque in felis massa vehicula. In sed euismod ut.</p>
+                            </div>
+                        </div>
+                        <!-- div 2 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">LIME PIE WITH CRUST</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$14</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15">Mollis ornare sit sapien, sodales. Cursus duis proin semper quisque.</p>
+                            </div>
+                        </div>
+                        <!-- div 3 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">RASBERRY PEAR CAKE</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$18</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 sm:pe-15">Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit.</p>
+                            </div>
+                        </div>
+                        <!-- div 4 -->
+                        <div class="w-full mt-10">
+                            <div class="w-full flex flex-wrap justify-between items-center">
+                                <a class="font-bebasNeue text-3xl xl:text-[33px] w-full xl:w-fit" href="">Café Au Lait</a>
+                                <span class="font-workSans text-[15px] xl:text-[17px] py-2 w-full xl:w-fit">$6</span>
+                            </div>
+                            <div>
+                                <p class="font-loralRegular text-lg pt-5 pb-3 sm:pe-15">Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit.</p>
+                            </div>
+                        </div>
+                        </div>
+                     </section>
+                </div>
+            </div>
+        </section>
+        <!-- end section 10  -->
+
+        <!-- section 11 -->
+        <section class="w-full flex  mt-10 sm:mt-16">
+            <div class="w-full flex justify-center bg-[url('../img/menu372x.jpg')] bg-cover bg-center">
+                <div class="w-10/12 flex justify-center ">
+                    <div class="w-full flex xl:container ">
+                        <div class="flex w-full xl:w-5/12 my-10 sm:my-20 md:my-25 lg:my-30 bg-black">
+                    <div class="w-full flex flex-wrap justify-center">
+
+                    <div class="w-10/12  py-10 px-5">
+                        
+                        <div class="w-full flex flex-wrap xl:flex-nowrap">
+                            <h2 class="w-full xl:w-fit font-bebasNeue text-white text-6xl  leading-18 pb-5  xl:leading-20 xl:pe-10">BRAISED ABALONE</h2>
+                            <span class="flexw-full font-workSans text-white-txt text-lg sm:hidden">$32</span>
+
+                            <span class="w-full xl:w-fit font-workSans text-white-txt text-lg hidden xl:flex">$52</span>
+                        </div>
+
+
+                        <div class="w-full mt-6">
+                            <span class="flex w-14 xl:w-18 mb-4 border-t border-white-txt"></span>
+                         </div>
+
+                        <div class="w-full sm:my-6 xl:my-5">
+                            <p class="font-loralRegular text-white-txt text-lg pt-1 pe-5 sm:pe-20">Pretium accumsan porttitor viverra leo gravida mollis imperdiet. Fringilla nibh pharetra sociis leo amet.</p>
+                        </div>
+                        <div class="w-full">
+                            <a class="flex justify-center items-center w-10/12 sm:w-[230px] py-2 font-workSans uppercase border border-white text-white mt-10 xl:mt-6 hover:bg-white hover:text-black transition duration-200" href="">
+                                Buy Avada today</a>
+                        </div>
+                         </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end section 11 -->
+    </main>
+
+    <!-- footer  -->
+     <footer class="w-full flex flex-wrap ">
+        <!-- bg -->
+        <section class="w-full flex bg-[url('../img/slider52x.jpg')] bg-cover bg-center">
+            <!-- linear  -->
+            <div style="background-image: linear-gradient(180deg, #000000 40%, hsla(0, 0%, 0%, calc(100% - 40%)) 100%);" class="w-full flex justify-center">
+                <div class="w-5/6 xl:container flex flex-wrap my-10 sm:my-15 md:my-20 lg:my-25 xl:my-30 *:border ">
+                    <figure class="w-full h-[50px]">
+                        <img class="w-full h-full object-contain" src="img/logo-svg.svg" alt="">
+                    </figure>
+                    <div class="w-full my-6">
+                        <p class="font-loralRegular text-white-txt text-lg text-center">Quam eu proin sit massa condimentum. Volutpat non pulvinar
+                            <br>
+                        aliquet nunc. Quam eu proin sit massa condimentum.
+                        </p>
+                    </div>
+                    <!-- social  -->
+                    <div class="w-full flex justify-center flex-wrap *:border ">
+                        <div class="w-[45px] h-[45px] me-3 mt-4">
+                            <a title="Facebook"  class="flex justify-center items-center w-full h-full rounded-full bg-white hover:bg-black hover:text-white transition duration-300" href="">
+                                <i class="awb-icon-facebook"></i>
+                            </a>
+                        </div>
+
+                        <div class="w-[45px] h-[45px] me-3 mt-4">
+                            <a title="X"  class="flex justify-center items-center w-full h-full rounded-full bg-white hover:bg-black hover:text-white transition duration-300" href="">
+                                <i class="awb-icon-twitter"></i>
+                            </a>
+                        </div>
+
+                        <div class="w-[45px] h-[45px] me-3 mt-4">
+                            <a title="Instagram" target="_blank" class="flex justify-center items-center w-full h-full rounded-full bg-white hover:bg-black hover:text-white transition duration-300" href="https://www.instagram.com/ftm.dehgni/">
+                                <i class="awb-icon-instagram"></i>
+                            </a>
+                        </div>
+
+                        <div class="w-[45px] h-[45px] me-3 mt-4">
+                            <a title="Youtube"  class="flex justify-center items-center w-full h-full rounded-full bg-white hover:bg-black hover:text-white transition duration-300" href="">
+                                <i class="awb-icon-youtube"></i>
+                            </a>
+                        </div>
+
+                        <div class="w-[45px] h-[45px] me-3 mt-4">
+                            <a title="Linkdin" target="_blank" class="flex justify-center items-center w-full h-full rounded-full bg-white hover:bg-black hover:text-white transition duration-300" href="https://www.linkedin.com/in/fatemeh-dehghani-060973314?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BkT8lausSYOjCf6e8DrytA%3D%3D">
+                                <i class="awb-icon-linkedin"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full flex flex-wrap justify-center h-20 bg-black">
+            <figure class="w-8/12 sm:w-5/12 md:w-4/12 lg:w-3/12 2xl:w-1/12 xl:w-2/12 h-full flex justify-center bg-pink-600">
+                <img class="h-full w-full object-cover" src="img/sign2.JPG" alt="">
+            </figure>
+            <div class="w-full bg-black flex justify-center -translate-y-5 pb-4">
+                <a class="font-loralItalic text-white-txt uppercase text-[12px]" target="_blank" href="https://github.com/FtmDhn">developed by fatemeh dehghani</a>
+            </div>
+        </section>
+     </footer>
+</body>
+</html>
