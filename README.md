@@ -55,7 +55,7 @@ It includes essential restaurant sections such as menu highlights, customer revi
 
 <br><br>
 
-## 🌐 Live Demo
+### 🌐 Live Demo
 
 👉 [Click here to view the project online](https://ftmdhn.github.io/restaurant-landing-page/)
 
