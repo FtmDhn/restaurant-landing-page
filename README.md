@@ -5,7 +5,7 @@
 [Live Demo](https://restaurant-landing-page-henna.vercel.app/)
 
 
-## 🚀 Overview
+🚀 Overview
 
 This project is a responsive and modern restaurant landing page, ideal for UI/UX portfolios or frontend showcase.  
 It includes essential restaurant sections such as menu highlights, customer reviews, promotions, and a clean design optimized for fine dining brands.
