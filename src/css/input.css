@@ -1,0 +1,287 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "bebasNeue";
+    src: url("../font/BebasNeue-Regular.ttf") format("woff2");
+}
+
+@font-face {
+    font-family: "loralItalic";
+    src: url("../font/Lora-Italic.ttf") format("woff2");
+}
+
+@font-face {
+    font-family: "loralRegular";
+    src: url("../font/Lora-Regular.ttf") format("woff2");
+}
+
+@font-face {
+    font-family: "workSans";
+    src: url("../font/WorkSans-Regular.ttf") format("woff2");
+}
+
+@theme {
+    --font-bebasNeue: "bebasNeue", sans-serif;
+    --font-loralItalic: "loralItalic", sans-serif;
+    --font-loralRegular: "loralRegular", sans-serif;
+    --font-workSans: "workSans", sans-serif;
+    --color-white-txt: #d6d6d6;
+    --color-white-bg: #dcdcdc;
+    --color-gray-bg: #e8e8e8;
+    --color-gray-txt: #ffffff7e;
+    --color-gray-txt2: #ffffffc1;
+    --color-bg-submenu: #3b3b3b;
+    --color-bg-submenu-hover: #bda16b;
+    --color-i-Color: #bebdbd;
+}
+
+
+@font-face {
+    font-family: 'Avada-Restaurant';
+    src: url('https://avada.website/restaurant/wp-content/uploads/sites/112/fusion-icons/Avada-Restaurant-v2.1/fonts/Avada-Restaurant.ttf?comkhp') format('truetype'), url('https://avada.website/restaurant/wp-content/uploads/sites/112/fusion-icons/Avada-Restaurant-v2.1/fonts/Avada-Restaurant.woff?comkhp') format('woff'), url('https://avada.website/restaurant/wp-content/uploads/sites/112/fusion-icons/Avada-Restaurant-v2.1/fonts/Avada-Restaurant.svg?comkhp#Avada-Restaurant') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+[class^="restaurant-"], [class*=" restaurant-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Avada-Restaurant' !important;
+    /* speak: never; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.restaurant-linkedin:before {
+    content: "\e920";
+}
+
+.restaurant-twitter:before {
+    content: "\e921";
+}
+
+.restaurant-shopping-basket:before {
+    content: "\e92c";
+}
+
+.restaurant-star-half-empty:before {
+    content: "\e922";
+}
+
+.restaurant-star-o:before {
+    content: "\e923";
+}
+
+.restaurant-star:before {
+    content: "\e924";
+}
+
+.restaurant-asterisk:before {
+    content: "\e925";
+}
+
+.restaurant-facebook:before {
+    content: "\e926";
+}
+
+.restaurant-close:before {
+    content: "\e92d";
+}
+
+.restaurant-menu:before {
+    content: "\e92e";
+}
+
+.restaurant-error:before {
+    content: "\e927";
+}
+
+
+.restaurant-home_filled:before {
+    content: "\e929";
+}
+
+.restaurant-keyboard_arrow_left:before {
+    content: "\e92a";
+}
+
+.restaurant-directions_car:before {
+    content: "\e92b";
+}
+
+.restaurant-beans:before {
+    content: "\e91a";
+}
+
+.restaurant-alcool:before {
+    content: "\e90c";
+}
+
+.restaurant-celery:before {
+    content: "\e90d";
+}
+
+.restaurant-corn:before {
+    content: "\e90e";
+}
+
+.restaurant-egg:before {
+    content: "\e90f";
+}
+
+.restaurant-fish:before {
+    content: "\e910";
+}
+
+.restaurant-gluten:before {
+    content: "\e911";
+}
+
+.restaurant-gmo:before {
+    content: "\e912";
+}
+
+.restaurant-lactose:before {
+    content: "\e913";
+}
+
+.restaurant-molluscs:before {
+    content: "\e914";
+}
+
+.restaurant-mustards:before {
+    content: "\e915";
+}
+
+.restaurant-nuts:before {
+    content: "\e916";
+}
+
+.restaurant-peanuts:before {
+    content: "\e917";
+}
+
+.restaurant-pork:before {
+    content: "\e918";
+}
+
+.restaurant-shellfish:before {
+    content: "\e919";
+}
+
+.restaurant-sulphites:before {
+    content: "\e91b";
+}
+
+.restaurant-vegan:before {
+    content: "\e91c";
+}
+
+.restaurant-cocktail:before {
+    content: "\e901";
+}
+
+.restaurant-sushi-3:before {
+    content: "\e902";
+}
+
+.restaurant-sushi-4:before {
+    content: "\e903";
+}
+
+.restaurant-sushi-5:before {
+    content: "\e904";
+}
+
+.restaurant-sushi-6:before {
+    content: "\e905";
+}
+
+.restaurant-sushi-7:before {
+    content: "\e906";
+}
+
+.restaurant-sushi-8:before {
+    content: "\e907";
+}
+
+.restaurant-sushi-9:before {
+    content: "\e908";
+}
+
+.restaurant-sushi-10:before {
+    content: "\e909";
+}
+
+.restaurant-sushi-2:before {
+    content: "\e90a";
+}
+
+.restaurant-sushi-1:before {
+    content: "\e90b";
+}
+
+.restaurant-cake:before {
+    content: "\e900";
+}
+
+@font-face {
+    font-family: 'awb-icons';
+    src: url('https://avada.website/restaurant/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff') format('woff'),url('//avada.website/restaurant/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf') format('truetype'),url('//avada.website/restaurant/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.svg#awb-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+[class*=" awb-icon-"],[class^=awb-icon-] {
+    font-family: 'awb-icons'!important;
+    /* speak: never; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.awb-icon-twitter:before {
+    content: "\e90b"
+}
+
+.awb-icon-facebook:before {
+    content: "\e604"
+}
+
+.awb-icon-linkedin:before {
+    content: "\e60f"
+}
+
+.awb-icon-youtube:before {
+    content: "\e622"
+}
+
+.awb-icon-instagram:before {
+    content: "\ea92"
+}
+
+@keyframes op {
+    to{
+        opacity: 1;
+    }
+}
+@keyframes op2 {
+    to{
+        transform: translateX(16px);
+        opacity: 1;
+    }
+}
