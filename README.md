@@ -2,19 +2,18 @@
 
 > A clean and modern restaurant landing page built with Tailwind CSS to showcase UI/UX skills.
 
-[Live Demo](https://restaurant-landing-page-henna.vercel.app/)
 
 <br><br>
 
 
-**🚀 Overview**
+**Overview**
 
 This project is a responsive and modern restaurant landing page, ideal for UI/UX portfolios or frontend showcase.  
 It includes essential restaurant sections such as menu highlights, customer reviews, promotions, and a clean design optimized for fine dining brands.
 
 <br>
 
-### 🎯 Features 
+### Features 
  &nbsp; Responsive layout (mobile, tablet, desktop)  
  &nbsp; Hero section with call-to-action  
  &nbsp; Menu highlights with images  
@@ -24,7 +23,7 @@ It includes essential restaurant sections such as menu highlights, customer revi
 
 <br>
 
-### 🛠 Technologies Used 
+### Technologies Used 
 - HTML – semantic structure and layout  
 - Tailwind CSS – utility-first styling  
 - CSS Animations – interactive visual effects
@@ -64,7 +63,8 @@ It includes essential restaurant sections such as menu highlights, customer revi
 
 ### 🌐 Live Demo
 
-👉 [Click here to view the project online](https://ftmdhn.github.io/restaurant-landing-page/)
+👉 [Click here to view the project online](https://restaurant-landing-page-henna.vercel.app/)  
+[support link](https://ftmdhn.github.io/restaurant-landing-page/)
 
 <br>
 
@@ -77,4 +77,4 @@ It includes essential restaurant sections such as menu highlights, customer revi
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://ir.linkedin.com/in/fatemeh-dehghani-060973314?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Fwww.linkedin.com%2F)  [![Instagram](https://img.shields.io/badge/Instagram-Follow-red)](https://www.instagram.com/YOUR_INSTAGRAM)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/fatemeh-dehghani-060973314/)  [![Instagram](https://img.shields.io/badge/Instagram-Follow-red)](https://www.instagram.com/ftm.dehgni/)
